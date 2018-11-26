@@ -21,8 +21,7 @@ class Genre
   
   def artists
     songs.select do |song|
-      binding.pry
-      song.artist == 
+      song.artist 
     end
   end
     
