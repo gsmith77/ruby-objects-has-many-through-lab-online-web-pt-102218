@@ -18,8 +18,6 @@ class Genre
       song.genre = self
     end
   end
-  
-  end
     
     
 end
