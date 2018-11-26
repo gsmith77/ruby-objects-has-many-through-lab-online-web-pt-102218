@@ -18,6 +18,10 @@ class Genre
       song.genre = self
     end
   end
+  
+  def artists
+    songs.map(&:artist)
+  end
     
     
 end
