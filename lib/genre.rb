@@ -20,7 +20,7 @@ class Genre
   end
   
   def artists
-    songs.select do |song|
+    songs.map do |song|
       binding.pry
       song.artist
     end
